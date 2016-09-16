@@ -1,0 +1,117 @@
+.body{
+	margin: 0px; 
+	background-image: url('../Images/green-background.jpg')
+}
+
+.externDiv{
+	width: 86%;
+	background-color : ;
+	height: 100%;
+	left: 50%;
+	position: absolute;
+	margin-left: -43%;
+	top : 20px;
+
+}
+
+.headerDiv{
+	height: 100px;
+	width: 100%;
+	background-color : #eee;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-top: 5px solid green;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.layout{
+	line-height: 100px;
+	font-size: 50px;
+	margin-left: 10px;
+	font-family: Ailerons-Typeface;
+	float: left;
+	color : green;
+}
+
+.navDiv{
+	width: 300px; 
+	background-color:#eee;
+	height: 100px;
+	left: 50%;
+	margin-left: -150px;
+	position: absolute;
+	
+
+}
+
+.borderRight{
+	border-right: 1px solid #ccc;
+}
+
+.firstNav{
+	margin:0;
+    padding:0;
+    font-size: 0px;
+    height: 100px; 	
+}
+
+.firstNav ul{
+	height: 100%;
+	margin: 0;
+    vertical-align: middle;
+    line-height: 100px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.firstNav ul li{
+	display: inline-block;	
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	height: 100%;
+}
+
+.firstNav ul li:hover{
+	display: inline-block;	
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	height: 100%;
+	background-color: #ddd;
+}
+
+.firstNav ul li a{
+	height: 100%;
+	margin-left: 0px;
+	color: green;
+	display: block;
+	font-family:arial; 
+	text-transform: uppercase; 
+	padding: 0px 18px 9px; 
+	text-decoration: none;
+	font-size: 20px;	
+	font-family: AllerDisplay;
+}
+
+.firstNav li:last-child{
+	border-right: 0px;	
+}
+
+.contactsDiv{
+	float: right;
+	width: 250px;
+	height: 100px;
+}
+
+@font-face {
+	font-family: Ailerons-Typeface;
+	src: url("../Fonts/Ailerons-Typeface.otf") format("opentype");
+}
+
+@font-face {
+	font-family:AllerDisplay;
+	src: url("../Fonts/AllerDisplay.ttf") format("opentype");
+}
