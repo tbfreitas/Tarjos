@@ -3,7 +3,39 @@
 	<head >
 		<link rel="stylesheet" type="text/css" href="CSS/index.css">
 		<title></title>
+
+		<script src="Plugins/JQuery/jquery.js"></script>
+		<script src="Plugins/JQuery-sliders/jquery.slides.min.js"></script>
+
+		  <script>
+		    $(function() {
+		      $('#slides').slidesjs({
+		        width: 940,
+		        height: 528,
+		        navigation: false,
+		         play: {
+			      active: false,
+			        // [boolean] Generate the play and stop buttons.
+			        // You cannot use your own buttons. Sorry.
+			      effect: "fade",
+			        // [string] Can be either "slide" or "fade".
+			      interval: 3000,
+			        // [number] Time spent on each slide in milliseconds.
+			      auto: true,
+			        // [boolean] Start playing the slideshow on load.
+			      swap: true,
+			        // [boolean] show/hide stop and play buttons
+			      pauseOnHover: false,
+			        // [boolean] pause a playing slideshow on hover
+			      restartDelay: 2500
+			        // [number] restart delay on inactive slideshow
+			    }
+		      });
+		    });
+		  </script>
+
 	</head>
+
 	<body class="body">
 		<div class="externDiv">
 
@@ -11,13 +43,13 @@
 			<div class="headerDiv">
 				
 				<!--Logo Span -->
-				<span class="layout">Tarjos</span>				
+				<span class="layout">Tanja</span>				
 				<!--Nav Div -->
 				<div class="navDiv">
 					<nav class="firstNav">
 						<ul>
-							<li style="border-right : 1px solid #ddd;border-left :1px solid #ddd"><a href=""> EMPRESA </a></li> 
-							<li style="border-right : 1px solid #ddd"><a href=""> Produtos </a></li>
+							<li class="firstLi"><a href=""> EMPRESA </a></li> 
+							<li class="secondLi"><a href=""> Produtos </a></li>
 						</ul>
 					</nav>
 				</div>
@@ -37,7 +69,12 @@
 			</div>
 
 			<div class="content">
-				
+				<div class="slides" id="slides">
+					<img src="Images/trihydral1.png">
+					<img src="Images/trihydral2.jpg">
+					<img src="Images/trihydral3.jpg">
+		
+				</div>
 			</div>
 
 
