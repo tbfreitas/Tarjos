@@ -133,7 +133,7 @@
 
 .content{
 	width: 100%;
-	height: 500px ;
+	height: 1000px ;
 	background-color: #eee;
 	border-left: 1px solid #ccc;
 	border-right: 1px solid #ccc;
@@ -148,16 +148,91 @@
 }
 
 .slides{
-	width : 70%;
-	height : 800px;
-	background-color : ;
+	width : 80%;
+	height : 500px;
 	left: 50%;
+	margin-left: -40%;
 	position : absolute;
-	margin-left : -35%;
-	margin-top : 15px;
+	margin-top : 50px;
 	border-radius : 5px;
+
 }
 
+.squares{
+	width : 80%;
+	position: relative;
+	height: 300px;
+	background-color:;
+	top: 550px;
+	left: 50%;
+	margin-left: -40%;
+
+		
+}
+
+.divleft{
+	float:left;
+	width: 30%;
+	height: 70%;
+	
+}
+
+.box{
+	border: 1px solid #808080;
+	border-radius: 2px ;
+	background-color: black ;
+}
+
+.allBoxes{
+	width: 100%;
+	height: 80%; 	
+}
+
+.boxLeft{
+	background:url(/Monet/assets/images/money.png) no-repeat center center;
+}
+
+.lastBox{
+	background:url(/Monet/assets/images/map.png) no-repeat center center;
+}
+
+.secondDivInsideBox{
+	position: relative;
+	background-color: white;
+	height: 20% !important;
+	text-align: center;
+}
+
+.propagandaSpan{
+	height: 20px;
+	top: 50%;
+	margin-top: -10px;
+	display: inline-block; 
+	position: absolute;
+	font-family: OsvaldBold;
+	font-size: 15px;
+	left: 0;
+    width: 100%;
+    color : #337ab7;
+}
+
+.divright{
+	position: relative;
+	height: 70%;	
+	width: 30%;
+	margin-left: 70%;	
+}
+
+.boxMidRight{
+	 background:url(/Monet/assets/images/map.png) no-repeat center center;
+}
+
+.midDiv{
+	width: 30%;
+	height: 70%;
+	margin-left: 5%;
+	float:left;
+}
 
 @font-face {
 	font-family: Ailerons-Typeface;
@@ -181,71 +256,75 @@
 
 
 body {
-      -webkit-font-smoothing: antialiased;
-      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-      color: #232525;
-      padding-top:70px;
-    }
+  -webkit-font-smoothing: antialiased;
+  font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #232525;
+  padding-top:70px;
+}
 
-    #slides {
-      display: none
-    }
+/*
+	Slider library
+*/
+#slides {
+  display: none
+}
 
-    #slides .slidesjs-navigation {
-      margin-top:3px;
-    }
+#slides .slidesjs-navigation {
+  margin-top:3px;
+}
 
-    #slides .slidesjs-previous {
-      margin-right: 5px;
-      float: left;
-    }
+#slides .slidesjs-previous {
+  margin-right: 5px;
+  float: left;
+}
 
-    #slides .slidesjs-next {
-      margin-right: 5px;
-      float: left;
-    }
+#slides .slidesjs-next {
+  margin-right: 5px;
+  float: left;
+}
 
-    .slidesjs-pagination {
-      margin: 6px 0 0;
-      float: right;
-      list-style: none;
-    }
+.slidesjs-pagination {
+  margin: 6px 0 0;
+  float: right;
+  list-style: none;
+}
 
-    .slidesjs-pagination li {
-      float: left;
-      margin: 0 1px;
-    }
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
 
-    .slidesjs-pagination li a {
-      display: block;
-      width: 13px;
-      height: 0;
-      padding-top: 13px;
-      background-image: url(../Images/pagination.png);
-      background-position: 0 0;
-      float: left;
-      overflow: hidden;
-    }
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(../Images/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
 
-    .slidesjs-pagination li a.active,
-    .slidesjs-pagination li a:hover.active {
-      background-position: 0 -13px
-    }
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
 
-    .slidesjs-pagination li a:hover {
-      background-position: 0 -26px
-    }
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
 
-    #slides a:link,
-    #slides a:visited {
-      color: #333
-    }
+#slides a:link,
+#slides a:visited {
+  color: #333
+}
 
-    #slides a:hover,
-    #slides a:active {
-      color: #9e2020
-    }
+#slides a:hover,
+#slides a:active {
+  color: #9e2020
+}
 
-    .navbar {
-      overflow: hidden
-    }
+.navbar {
+  overflow: hidden
+}
+

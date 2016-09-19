@@ -3,52 +3,47 @@
 	<head >
 		<link rel="stylesheet" type="text/css" href="CSS/index.css">
 		<title></title>
-
 		<script src="Plugins/JQuery/jquery.js"></script>
 		<script src="Plugins/JQuery-sliders/jquery.slides.min.js"></script>
-
-		  <script>
-		    $(function() {
-		      $('#slides').slidesjs({
-		        width: 940,
-		        height: 528,
-		        navigation: false,
-		         play: {
-			      active: false,
-			        // [boolean] Generate the play and stop buttons.
-			        // You cannot use your own buttons. Sorry.
-			      effect: "fade",
-			        // [string] Can be either "slide" or "fade".
-			      interval: 3000,
-			        // [number] Time spent on each slide in milliseconds.
-			      auto: true,
-			        // [boolean] Start playing the slideshow on load.
-			      swap: true,
-			        // [boolean] show/hide stop and play buttons
-			      pauseOnHover: false,
-			        // [boolean] pause a playing slideshow on hover
-			      restartDelay: 2500
-			        // [number] restart delay on inactive slideshow
-			    }
-		      });
-		    });
-		  </script>
-
+		<script>
+		$(function() {
+		$('#slides').slidesjs({
+		width: 940,
+		height: 450,
+		navigation: true,
+		play: {
+			active: false,
+			// [boolean] Generate the play and stop buttons.
+			// You cannot use your own buttons. Sorry.
+			effect: "fade",
+			// [string] Can be either "slide" or "fade".
+			interval: 3000,
+			// [number] Time spent on each slide in milliseconds.
+			auto: true,
+			// [boolean] Start playing the slideshow on load.
+			swap: true,
+			// [boolean] show/hide stop and play buttons
+			pauseOnHover: false,
+			// [boolean] pause a playing slideshow on hover
+			restartDelay: 2500
+			// [number] restart delay on inactive slideshow
+			}
+		});
+		});
+		</script>
 	</head>
-
 	<body class="body">
 		<div class="externDiv">
-
 			<!--header div Span -->
 			<div class="headerDiv">
 				
 				<!--Logo Span -->
-				<span class="layout">Tanja</span>				
+				<span class="layout">Tanja</span>
 				<!--Nav Div -->
 				<div class="navDiv">
 					<nav class="firstNav">
 						<ul>
-							<li class="firstLi"><a href=""> EMPRESA </a></li> 
+							<li class="firstLi"><a href=""> EMPRESA </a></li>
 							<li class="secondLi"><a href=""> Produtos </a></li>
 						</ul>
 					</nav>
@@ -64,19 +59,57 @@
 							<img  class="imageContact" src="Images/facebook-logo.png">
 							<span class="infoSpan" >/gilberto.targino.9</span>
 						</div>
-					</a>					
+					</a>
 				</div>
 			</div>
-
 			<div class="content">
 				<div class="slides" id="slides">
 					<img src="Images/trihydral1.png">
 					<img src="Images/trihydral2.jpg">
 					<img src="Images/trihydral3.jpg">
-		
+					<img src="Images/trihydral4.jpg">
+					<img src="Images/trihydral5.jpg">
+					<img src="Images/IMG-20160918-WA0024.jpg">
+				</div>
+				<div class="squares">
+					<div class="divleft box" >
+						<div  class="allBoxes boxLeft">
+						</div>
+						<div class="secondDivInsideBox">
+							<a href="">
+								<div  class="">
+									<span class="propagandaSpan" >Faça seu orcamento </span>
+								</div >
+							</a>
+						</div>
+					</div>
+
+					<div class="midDiv box">
+						<div class="allBoxes boxMidRight">
+						</div>
+						
+						<div  class="secondDivInsideBox">
+							<a href="http://www.google.com">
+								<div >
+									<span class="propagandaSpan">Veja nossa localizacao e nos visite</span>
+								</div >
+							</a>
+						</div>
+					</div>
+					
+					<div class="divright box">
+						<div class="allBoxes lastBox">
+						</div>
+						<div  class="secondDivInsideBox">
+							<a href="http://www.google.com">
+								<div >
+									<span class="propagandaSpan">Veja nossa localizacao e nos visite</span>
+								</div >
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
-
-
+			
 		</body>
 	</html>
