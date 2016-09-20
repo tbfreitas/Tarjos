@@ -22,4 +22,16 @@ $(document).ready(function() {
 			// [number] restart delay on inactive slideshow
 			}
 	});
+
+
+	var element = document.querySelector('.allBoxes');
+	while( (element.offsetHeight < element.scrollHeight) || (element.offsetWidth < element.scrollWidth)){
+
+		 var size = parseInt($(".allBoxes").css('font-size'));
+
+		$('.allBoxes').css('font-size', size - 1 + 'px');
+
+	}
+
+
 });

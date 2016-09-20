@@ -161,7 +161,7 @@
 }
 
 .aboutDescript{
-	margin-top: 380px;
+	margin-top: 60%;
 	padding: 15px;
 	font-size: 15px;
     color: #333331;
@@ -174,7 +174,8 @@
 .about h2{
 	padding: 0px 45px;
  	font-size: 24px;
- 	font-family: 'Open Sans', sans-serif;
+ 	font-family: OsvaldBold;
+ 	color : green;
 
 }
 
@@ -198,14 +199,16 @@
 }
 
 .box{
-	border: 1px solid #808080;
-	border-radius: 2px ;
-	background-color: black ;
+	border: 2px solid #DEFCB4;
+	border-radius: 2px;
+	font-size: 80%;
+	
 }
 
 .allBoxes{
 	width: 100%;
-	height: 80%; 	
+	font-size: 30px;
+	height: 70%
 }
 
 .boxLeft{
@@ -218,9 +221,18 @@
 
 .secondDivInsideBox{
 	position: relative;
-	background-color: white;
+	background-color: #DEFCB4;
 	height: 20% !important;
 	text-align: center;
+}
+
+.allBoxes span{
+    text-align: justify;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 300;
+    font-style: italic;
+	
 }
 
 .propagandaSpan{
@@ -233,7 +245,7 @@
 	font-size: 15px;
 	left: 0;
     width: 100%;
-    color : #337ab7;
+    color : green;
 }
 
 .divright{
@@ -258,7 +270,6 @@
 	width: 30%;
 	float: right;
 	height: 500px;
-	background-color: ;
 	text-align: center;
 	border-radius: 5px;
 }
@@ -308,7 +319,7 @@
 	width: 0;
 	z-index: 1;
 	bottom: -15px;
-	left: 165px;
+	left: 50%;
 }
 
 .secondLine{
