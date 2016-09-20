@@ -1,44 +1,32 @@
 .body{
 	margin: 0px; 
-	background-image: url('../Images/green-background.jpg')
+	
 }
 
 .externDiv{
-	width: 86%;	
-	height: 100%;
-	left: 50%;
-	position: absolute;
-	margin-left: -43%;
-	top : 20px;
-
+	width: 100%;	
+	height: 100%;	position: absolute;
 }
 
 .headerDiv{
-	height: 100px;
+	height: 70px;
 	width: 100%;
-	background-color : white;
-	border-left: 1px solid #ddd;
-	border-right: 1px solid #ddd;
-	border-bottom: 3px solid green;
-	border-top: 5px solid green;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	background-color: #3c3b3b;
 }
 
 .layout{
-	line-height: 100px;
+	line-height: 70px;
 	font-size: 50px;
-	margin-left: 10px;
+	margin-left: 3%;
 	font-family: Ailerons-Typeface;
 	float: left;
-	color : green;
+	color : white;
 }
 
 .navDiv{
-	width: 300px; 
-
-	height: 100px;
-	left: 50%;
+	width: auto; 
+	height: 70px;
+	left: 40%;
 	margin-left: -150px;
 	position: absolute;
 	
@@ -46,21 +34,27 @@
 }
 
 .borderRight{
-	border-right: 1px solid #ccc;
+	border-right: 2px solid #ccc;
+
+}
+
+.paddingHeader{
+	padding: 9px;
 }
 
 .firstNav{
 	margin:0;
     padding:0;
     font-size: 0px;
-    height: 100px; 	
+    height: 70px; 	
 }
+
 
 .firstNav ul{
 	height: 100%;
 	margin: 0;
     vertical-align: middle;
-    line-height: 100px;
+    line-height: 70px;
     list-style-type: none;
     padding: 0;
 }
@@ -83,30 +77,32 @@
 }
 
 .firstNav ul li a{
-	height: 100%;
+	
 	margin-left: 0px;
-	color: green;
+	color: white;
 	display: block;
 	font-family:arial; 
 	text-transform: uppercase; 
-	padding: 0px 18px 9px; 
 	text-decoration: none;
 	font-size: 20px;	
 	font-family: AllerDisplay;
 }
 
 
+.firstNav ul li a:hover{
+	color: #57cfe5;
+}
 
 .contactsDiv{
 	float: right;
 	width: 180px;
-	height: 100px;
+	height: 70px;
 }
 
 
 .infoFactory{
 	position: relative; 
-	margin-top: 15px ;
+	margin-top: 23px ;
 	height: 24px; 
 }
 
@@ -119,7 +115,7 @@
 	line-height: 24px; 
 	margin-left : 5px;
 	font-family: Lobster;
-	color : green;
+	color : white;
 
 }
 
@@ -152,6 +148,9 @@
 
 }
 
+.images article{
+	padding-top: 30px;
+}
 
 .slides{
 	width: 99.8%;
@@ -161,32 +160,42 @@
 }
 
 .aboutDescript{
-	margin-top: 60%;
-	padding: 15px;
+	width: 50%;
+	padding: 45px;
 	font-size: 15px;
-    color: #333331;
+    color: white;
+    font-weight: bold;
+   
     /* margin: 0; */
     font-family: 'Open Sans', sans-serif;
 	text-align: justify;
 
 }
 
-.about h2{
+.images{
+	height: 550px; 
+	width: 100%; 
+	background: url(../Images/aguas.jpg);
+	background-size : 100%;
+
+}
+
+.images h1{
 	padding: 0px 45px;
- 	font-size: 24px;
+ 	font-size: 42px;
  	font-family: OsvaldBold;
- 	color : green;
+ 	color : black;
 
 }
 
 .squares{
-	width : 90%;
+	width : 80%;
 	position: relative;
 	height: 300px;
 	background-color:;
 	top: 50px;
 	left: 50%;
-	margin-left: -45%;
+	margin-left: -40%;
 
 		
 }
@@ -324,10 +333,10 @@
 
 .secondLine{
 	position: absolute;
-	width: 90%;
+	width: 80%;
 	height: 500px;
 	left: 50%;
-	margin-left: -45%;
+	margin-left: -40%;
 
 }
 
@@ -356,7 +365,6 @@ body {
   -webkit-font-smoothing: antialiased;
   font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #232525;
-  padding-top:70px;
 }
 
 /*
