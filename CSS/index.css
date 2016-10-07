@@ -127,7 +127,7 @@
 
 .content{
 	width: 100%;
-	height: 1100px ;
+	height: 200px ;
 	background-color: white;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
@@ -140,11 +140,28 @@
 }
 
 .about{
-	width : 65%;
-	height : 700px;	
+	width : 100%;
+	height : 450px;	
 	position : absolute;
-	background-color: #DEFCB4;
+	border : 2px solid #dadada;
+}
 
+.about h2{
+
+    font-family: 'Open Sans';
+    color: black;
+    line-height: 24px;
+    display: inline;
+    font-weight: bold;
+    margin: 0; 
+    text-shadow: 2px 2px #ccc;
+
+}
+
+.about img{
+	position: absolute;
+	top: 18px;
+	right: 15px;
 }
 
 .images article{
@@ -178,6 +195,7 @@
 	width: 100%; 
 	background: url(../Images/aguas.jpg);
 	background-size : 100%;
+	opacity: 0.5;
 
 }
 
@@ -193,9 +211,9 @@ article h1{
 .squares{
 	width : 70%;
 	position: relative;
-	height: 300px;
+	height: 200px;
 	background-color:;
-	top: 50px;
+	margin-top: 50px;
 	left: 50%;
 	margin-left: -35%;
 
@@ -205,13 +223,13 @@ article h1{
 .divleft{
 	float:left;
 	width: 30%;
-	height: 50%;
 	
 }
 
 .box{
 	border: 2px solid #dadada;
 	font-size: 80%;
+	height: 75%; 
 	
 }
 
@@ -264,7 +282,6 @@ article h1{
 
 .divright{
 	position: relative;
-	height: 50%;	
 	width: 30%;
 	margin-left: 70%;	
 }
@@ -275,7 +292,6 @@ article h1{
 
 .midDiv{
 	width: 30%;
-	height: 50%;
 	margin-left: 5%;
 	float:left;
 }
@@ -338,11 +354,11 @@ article h1{
 }
 
 .secondLine{
-	position: absolute;
-	width: 80%;
+	position: relative;
+	width: 84%;
 	height: 500px;
 	left: 50%;
-	margin-left: -40%;
+	margin-left: -42%;
 
 }
 
