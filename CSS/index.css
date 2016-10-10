@@ -145,6 +145,7 @@
 	position : absolute;
 	border : 2px solid #3b3b3a;
 
+
 }
 
 .imagesProfiles{
@@ -363,7 +364,7 @@ article h1{
 .secondLine{
 	position: relative;
 	width: 70%;
-	height: 500px;
+	height: 420px;
 	left: 50%;
 	margin-left: -35%;
 
@@ -543,9 +544,9 @@ body {
 .triangle-border {
     position: relative;
     padding: 15px;
-    border: 3px solid #3b3b3a;
+    border: 3px solid #c2c2c2;
     color: #333;
-    background: #fff;
+    background: #eaeaea;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -554,11 +555,11 @@ body {
 }
 
 .triangle-border.left:before {
-    top: 10px;
+    top: 12px;
     bottom: auto;
     left: -30px;
-    border-width: 15px 30px 15px 0;
-    border-color: transparent #3b3b3a;
+    border-width: 13px 30px 13px 0;
+    border-color: transparent #c2c2c2;
 }
 
 .triangle-border:before {
@@ -578,7 +579,7 @@ body {
     bottom: auto;
     left: -21px;
     border-width: 9px 21px 9px 0;
-    border-color: transparent #fff;
+    border-color: transparent #eaeaea;
 }
 .triangle-border:after {
     content: "";
@@ -590,4 +591,38 @@ body {
     border-color: #fff transparent;
     display: block;
     width: 0;
+}
+
+.clientsSpan{
+	height: 50px; 
+	padding: 10px; 
+	line-height: 50px;
+	text-align: center; 
+	background-color : #3b3b3a;
+}
+
+.opinions-cont{
+	width: 80%; 
+	background-color: ; 
+	height: 300px;
+	margin-left: 10%; 
+	top: 70px; 
+	position: absolute; 
+}
+
+.withMarginBottom{
+	 border-bottom : 1px solid #c2c2c2;
+}
+
+.div-to-opinion{
+	height : 100px; 
+	width : 100%; 
+	position: relative; 
+	left : 18px !important;
+}
+
+.h3-local{
+	position: absolute; 
+	margin-right : 430px; 
+	margin-top: 0;
 }
