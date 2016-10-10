@@ -141,24 +141,31 @@
 
 .about{
 	width : 100%;
-	height : 450px;	
+	height : 370px;	
 	position : absolute;
-	border : 2px solid #dadada;
+	border : 2px solid #3b3b3a;
+
+}
+
+.imagesProfiles{
+	margin-top: 18px;
+
 }
 
 .about h2{
 
     font-family: 'Open Sans';
-    color: black;
+    color: white;
     line-height: 24px;
     display: inline;
     font-weight: bold;
     margin: 0; 
-    text-shadow: 2px 2px #ccc;
+    text-shadow:;
 
 }
 
-.about img{
+
+.baloonIcon{
 	position: absolute;
 	top: 18px;
 	right: 15px;
@@ -355,10 +362,10 @@ article h1{
 
 .secondLine{
 	position: relative;
-	width: 84%;
+	width: 70%;
 	height: 500px;
 	left: 50%;
-	margin-left: -42%;
+	margin-left: -35%;
 
 }
 
@@ -530,3 +537,57 @@ body {
   overflow: hidden
 }
 
+.triangle-border.left {
+    margin-left: 30px;
+}
+.triangle-border {
+    position: relative;
+    padding: 15px;
+    border: 3px solid #3b3b3a;
+    color: #333;
+    background: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    float: right;
+    width: 80%;
+}
+
+.triangle-border.left:before {
+    top: 10px;
+    bottom: auto;
+    left: -30px;
+    border-width: 15px 30px 15px 0;
+    border-color: transparent #3b3b3a;
+}
+
+.triangle-border:before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+    border-width: 20px 20px 0;
+    border-style: solid;
+    border-color: #3b3b3a transparent;
+    display: block;
+    width: 0;
+}
+
+.triangle-border.left:after {
+    top: 16px;
+    bottom: auto;
+    left: -21px;
+    border-width: 9px 21px 9px 0;
+    border-color: transparent #fff;
+}
+.triangle-border:after {
+    content: "";
+    position: absolute;
+    bottom: -13px;
+    left: 47px;
+    border-width: 13px 13px 0;
+    border-style: solid;
+    border-color: #fff transparent;
+    display: block;
+    width: 0;
+}
