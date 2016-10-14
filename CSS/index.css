@@ -1,6 +1,10 @@
 .body{
 	margin: 0px; 
-	
+	background-color: #f5f5f5;
+}
+
+footer{
+	margin-top: 50px;
 }
 
 .marginLeftProducts{
@@ -128,7 +132,6 @@
 .content{
 	width: 100%;
 	height: 200px ;
-	background-color: white;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	margin-bottom: 10px;
@@ -150,7 +153,11 @@
 
 .imagesProfiles{
 	margin-top: 18px;
-
+	width: 64px;
+	height: 64px; 
+	border: 2px solid #ccc; 
+	border-radius: 10px; 
+	float : left;
 }
 
 .about h2{
@@ -199,7 +206,7 @@
 }
 
 .images{
-	height: 400px; 
+	height: 350px; 
 	width: 100%; 
 	background: url(../Images/aguas.jpg);
 	background-size : 100%;
@@ -235,10 +242,10 @@ article h1{
 }
 
 .box{
-	border: 2px solid #dadada;
+
 	font-size: 80%;
 	height: 75%; 
-	
+	background-color: white;
 }
 
 .allBoxes{
@@ -540,6 +547,7 @@ body {
 
 .triangle-border.left {
     margin-left: 30px;
+    width: calc(100% - 150px);
 }
 .triangle-border {
     position: relative;
@@ -625,4 +633,87 @@ body {
 	position: absolute; 
 	margin-right : 430px; 
 	margin-top: 0;
+}
+
+.clientName{
+	position: relative;
+	left: 10px;
+    width: 12%;
+    margin-top: 10px;
+    height: 20px;
+    top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.opinionClient{
+	position: absolute;
+	float: left;
+	left: 80px;
+    height: 20px;
+    top: 50%;
+    font-size: 12px;
+    font-style: italic;
+
+}
+
+.product{
+	margin-top : 50px;
+	width: 60%;
+	height: 250px;
+	position: relative;
+	left: 50%;
+	margin-left: -30%;
+	background-color: white;
+}
+
+.imageProduct{
+	float: left;
+	width: 220px;
+	height: 220px;
+	margin-top: 15px;
+	margin-left: 15px;
+	background-color: red;
+	background-size: 220px 220px !important;
+}
+
+.productInfo{
+	position: relative;
+	width:calc(100% - 265px); 
+	float: right;
+	height: calc(100% - 30px);
+	padding: 15px;
+}
+
+.productName{
+	font-size: 26px;
+	font-family: Arial;
+	font-weight: normal;
+	margin: 0;
+	color :#595959;
+	text-decoration : none;
+}
+
+.descriptProduct{
+	font-size: 14px;
+	font-weight: normal;
+	color :#1796d0;
+	text-align: justify;
+}
+
+.productPrice{
+	color: #ff3375;
+    font-size: 35px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    float: left;
+    position: absolute;
+    bottom: 5px;
+    margin: 0px;
+}
+
+.productsArea{
+	background-color: #f5f5f5;
+	height: auto;
 }

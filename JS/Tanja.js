@@ -24,14 +24,18 @@ $(document).ready(function() {
 	});
 
 
+
 	var element = document.querySelector('.allBoxes');
-	while( (element.offsetHeight < element.scrollHeight) || (element.offsetWidth < element.scrollWidth)){
+	if(element){
+		while( (element.offsetHeight < element.scrollHeight) || (element.offsetWidth < element.scrollWidth)){
 
-		 var size = parseInt($(".allBoxes").css('font-size'));
+			 var size = parseInt($(".allBoxes").css('font-size'));
 
-		$('.allBoxes').css('font-size', size - 1 + 'px');
+			$('.allBoxes').css('font-size', size - 1 + 'px');
 
+		}
 	}
+
 
 
 });
